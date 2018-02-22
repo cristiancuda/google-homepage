@@ -1,0 +1,272 @@
+body {
+	font-family: arial, sans-serif;;
+	font-size: 13px;
+}
+
+.center-container {
+	margin-left: 149px;
+	width: 632px;
+}
+
+/* HEADER */
+
+header {
+	background-color: #fafafa;
+	border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.header-top, .function-buttons, .nav-buttons {
+	list-style: none;
+    overflow: hidden;
+}
+
+.header-top li, .function-buttons li, .nav-buttons li, .tools-buttons li {
+	float: left;
+}
+
+.header-top > li:last-child {
+	float: right;
+	padding-right: 30px;
+	margin-top: 28px;
+}
+
+.function-buttons > li:last-child {
+	padding-left: 15px;
+}
+
+.image-logo {
+	width: 149px;
+	padding: 24px 0 0 13px;
+	box-sizing: border-box;
+}
+
+.search-area {
+	width: 632px;
+	padding-top: 19px;
+	overflow: hidden;
+}
+
+.search-area input[type=text] {
+	padding: 1px 0 0 15px;
+	border: 0.5px solid #ccc;
+	width: 100%;
+	height: 46px;
+	font-size: 16px;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.function-buttons i {
+	color: rgba(0, 0, 0, 0.54);
+}
+
+.function-buttons i:hover {
+	color: rgba(0, 0, 0, 1);
+}
+
+.apps-button {
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+.sign-in-button {
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.sign-in-button a {
+	color: #fff;
+	display: block;
+	padding: 0 12px;
+	text-decoration: none;
+	line-height: 28px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.tools-buttons {
+	float: right;
+}
+
+.nav-buttons a, .tools-buttons a {
+	display: block;
+	color: rgb(119, 119, 119);
+	padding: 22px 16px 12px 16px;
+	text-decoration: none;
+}
+
+.nav-buttons a:hover, .tools-buttons a:hover {
+	color : #222;
+}
+
+.nav-buttons a.checked {
+	color: rgb(26, 115, 232);
+	border-bottom: 3px solid rgb(26, 115, 232);
+	font-weight: bold;
+}
+
+/* MAIN */
+
+.search-info p {
+	color: rgb(119, 119, 119);
+	line-height: 48px;
+	padding-left: 16px;
+}
+
+.best-match {
+	padding: 16px;
+	font-size: 16px;
+	border: 0.5px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16);
+}
+
+.best-match h2 {
+	font-weight: bold;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+.best-match ol {
+	padding: 15px 20px 0 20px;
+}
+
+.best-match ol li {
+	line-height: 23px;
+}
+
+.more-items {
+	margin-top: 10px;
+	padding: 0 20px;
+}
+
+.more-items a {
+	color: rgb(119, 119, 119);
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.more-items a:hover {
+	text-decoration: underline;
+}
+
+.link-area {
+	margin-top: 20px;
+}
+
+.link-area a {
+	display: block;
+	color: rgb(26, 13, 171);
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 1.4;
+}
+
+.link-area a:hover {
+	text-decoration: underline;
+}
+
+.link-area cite {
+	color: rgb(0, 102, 33);
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.best-match-image {
+	float: right;
+	margin-left: 20px;
+}
+
+.result-boxes, .related-search {
+	margin: 40px 16px 0 16px;
+}
+
+.result-box {
+	color: #545454;
+	margin-bottom: 30px;
+}
+
+.result-box:last-child {
+	margin-bottom: 0;
+}
+
+.result-box p {
+	line-height: 1.4;
+}
+
+.related-search {
+	margin-bottom: 50px;
+}
+
+.related-search h2 {
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.related-search ul {
+	list-style: none;
+}
+
+.related-search a {
+	color: rgb(26, 13, 171);
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.related-search li {
+	margin-bottom: 15px;
+}
+
+.related-search li:last-child {
+	margin-bottom: 0;
+}
+
+.related-search a:hover {
+	text-decoration: underline;
+}
+
+.location-info, .additional-buttons {
+	background-color: rgb(242, 242, 242);
+	border-top: 1px solid rgb(228, 228, 288);
+}
+
+.location-info ul, .additional-buttons ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+.location-info li, .additional-buttons li {
+	float: left;
+}
+
+.location-info p, .additional-buttons a {
+	display: block;
+	color: rgb(119, 119, 119);
+	padding: 16px 16px 12px 16px;
+	text-decoration: none;
+}
+
+.location-info li:first-child {
+	border-right: 1px solid rgb(228, 228, 288);
+}
+
+.location-info .current-country {
+	font-size: 15px;
+}
+
+.location-info li:last-child p {
+	color: #aaa;
+}
+
+.learn-more {
+	color: rgb(119, 119, 119);
+}
+
+.learn-more:hover {
+	color: #333;
+}
