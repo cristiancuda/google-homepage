@@ -1,1 +1,1 @@
-A simple modification of Google's search engine site.
+A simple recreation of Google's search engine site.
